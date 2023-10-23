@@ -1,0 +1,279 @@
+@media only screen and (max-width: 375px){
+
+
+/***************************************************
+	HTML
+***************************************************/
+
+	header {
+		height: 140px;
+	}
+
+
+/***************************************************
+	CONTAINERS
+***************************************************/
+	#container, #container_left, #container_right {
+		position: relative;
+		width: 100%;
+	}
+
+	#container {
+		width: 375px;
+	}
+
+	.container1 {
+		width: 375px; /*980 = 230px */
+		position: absolute;
+	}
+	
+
+	.content1 {
+		width: 211px; /* 900 = 211px */
+	}
+
+	#main {
+		width: 100%;
+		margin-top: -12px;
+		margin-bottom: 20px;
+	}
+
+	.news {
+		width: 47px; /* 200 = 47px */
+
+	}
+
+	.group3 {
+		width: 52px; /* 220px = 52px */
+	}
+
+	#intro {
+		width: 225px;  /* 960 = 225px */
+	}
+
+
+	h1.fontface {
+		font: 40px/48px 'BoycottRegular', Arial, sans-serif;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+/***************************************************
+	SPECIFICS
+***************************************************/
+	.welcome {
+		width: 320px;
+		position: relative;
+		padding: 15px 15px 25px 21px;
+		background: transparent;
+	}
+
+	#title {
+		float: left;
+		width: 250px;
+		height: 100px;
+		margin-top: 20px;
+	}
+
+	.portfolio {
+		width: 320px;
+		padding: 15px 28px 25px 28px;
+	}
+
+/***************************************************
+	NAVIGATION
+***************************************************/
+	nav {
+		position: relative;
+		margin: 0 auto;
+		padding-left: 0px;
+		padding-top: 60px;
+	}
+
+
+	nav ul li {
+		margin-left: 0px;
+	}
+
+	nav ul li a {
+		font-size: 12px;
+		margin-top: 12px;
+		margin-left: 14px;
+		padding-right: 15px;
+	}
+
+	#title {
+		padding-left: 15px;
+	}
+
+/***************************************************
+	FOOTER
+***************************************************/
+footer {
+    height: 60px;
+    width: 85%;
+    font-size: 9px;  
+}
+
+.p-footer-responsive {
+    padding-left: 75px;
+    width: 100%;
+}
+
+/***************************************************
+	GALLERY STYLES START HERE
+***************************************************/
+	.gallery {
+		margin: -40px 50px 50px 10px;
+
+	}
+
+	.gallery li {
+		margin: 15px 10px;
+		padding: 0 12px;
+		width: 103px;
+		height: 109px;
+		
+	}
+
+/* Make the brush image 50% transparent */
+.gallery span {
+	width: 181px;
+	height: 134px;
+	top: -7px;
+	left: 24px;
+	background-size: 141px 100px;
+}
+
+#content {
+	float: left;
+	width: 400px;
+	margin-left: 40px;
+}
+
+.gallery img {
+	width: 122%;
+	padding: 0px 0px 0px 20px;
+}
+
+
+/***************************************************
+	INDEX
+***************************************************/
+.group3 {
+	float: left;
+	width: 150px;
+	position: relative;
+	background: transparent;
+	padding: 15px 15px 15px 22px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-size: 9px;
+}
+
+
+/***************************************************
+	ABOUT
+***************************************************/
+
+.group2-about {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    padding: 15px 15px 15px 60px;
+    margin-bottom: 10px;
+}
+
+.image-about-responsive {
+	margin-right: 112px;
+}
+
+.figcaption-about-responsive {
+		margin-right: 115px;
+}
+
+.picture img {
+    max-width: 70%;
+    height: auto;
+    padding-top: 0px;
+}
+
+/***************************************************
+	TOUR DATES
+***************************************************/
+.welcome-tour-dates {
+    width: 100%;
+    position: relative;
+    padding: 15px 15px 25px 125px;
+    background: transparent;
+}
+
+.center-table-tour-dates {
+    width: 375px;
+    height: 427px;
+    margin-top: 150px;
+}
+
+.header-text {
+    padding-left: 0px;
+}
+
+/* Center the title */
+.welcome-tour-dates {
+    padding: 15px 15px 25px 65px;
+}
+
+.footer-responsive {
+    height: 60px;
+    width: 85%;
+    font-size: 9px;
+    padding-top: 375px;
+}
+
+/***************************************************
+	CONTACT
+***************************************************/
+.p-contact {
+	width: 350px;
+	text-align: center;
+}
+
+.h2-contact {
+	margin-right: 100px;
+}
+
+.h2-contact-touch {
+	margin-right: 40px;
+}
+
+.form-submission input:not([type="radio"]):not([type="checkbox"]), .form-submission textarea, .form-submission select {
+    width: 325px;
+}
+
+#sendBtn {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-submission {
+    width: 375px;
+    margin: 10px 10px 0px 0px;
+    padding: 30px 30px 0px 0px;
+}
+
+/* Control the size of the icons */
+.table-contact img {
+    width: 37px;
+    padding-left: 44px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.contact-page-responsive {
+	max-height: 200px;
+}
+
+}
